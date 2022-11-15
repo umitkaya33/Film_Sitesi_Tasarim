@@ -13,6 +13,7 @@ body {
 
 /* ! base css end */
 
+/* ! navbar start */
 .navbar {
     background-color: black;
     height: 60px;
@@ -47,27 +48,32 @@ body {
 .menu-list-item:hover {
     font-weight: bold;
 }
+
 .menu-list-item.active {
     font-weight: bold;
 }
-.profile-container{
+
+.profile-container {
     display: flex;
     align-items: center;
     column-gap: 20px;
 }
-.profile-picture{
+
+.profile-picture {
     width: 30px;
     height: 32px;
     object-fit: cover;
     border-radius: 50%;
 }
-.profile-text-container{
+
+.profile-text-container {
     display: flex;
     align-items: center;
     column-gap: 5px;
     line-height: 1;
 }
-.toggle{
+
+.toggle {
     width: 40px;
     height: 20px;
     background-color: white;
@@ -77,10 +83,12 @@ body {
     align-items: center;
     justify-content: space-around;
 }
-.toggle-icon{
+
+.toggle-icon {
     color: goldenrod;
 }
-.toggle-ball{
+
+.toggle-ball {
     width: 18px;
     height: 18px;
     background-color: black;
@@ -91,9 +99,27 @@ body {
 
 }
 
+/* ! navbar end */
+
+/* ! sidebar start */
 .sidebar {
     background-color: black;
     color: white;
     height: 100%;
     width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    row-gap: 40px;
+    position: fixed;
+    top: 0;
 }
+
+.sidebar i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ! sidebar end */
