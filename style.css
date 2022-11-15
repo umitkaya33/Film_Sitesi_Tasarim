@@ -50,6 +50,46 @@ body {
 .menu-list-item.active {
     font-weight: bold;
 }
+.profile-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.profile-picture{
+    width: 30px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+}
+.toggle{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.toggle-icon{
+    color: goldenrod;
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+
+}
 
 .sidebar {
     background-color: black;
