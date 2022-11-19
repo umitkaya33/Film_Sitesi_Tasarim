@@ -36,8 +36,18 @@ body {
 }
 
 .logo {
-    font-size: 30px;
-    color: rgb(255, 70, 70);
+    font-size: 25px;
+    color: rgb(229, 9, 20);
+}
+
+.logo-wrapper h1 {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.logo-wrapper h1:hover {
+    opacity: 1;
+    transition: .5s ease-in-out
 }
 
 .menu-list {
@@ -216,6 +226,8 @@ body {
     display: flex;
     align-items: center;
     column-gap: 30px;
+    transform: translateX(0);
+    transition: 1s all ease-in-out;
 }
 
 .movie-list-wrapper {
