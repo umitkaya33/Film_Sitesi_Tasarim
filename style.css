@@ -188,3 +188,9 @@ body {
 }
 
 /* ! filter end */
+
+/* ! movie list start */
+.movie-list-container{
+    margin-left: 70px;
+}
+/* ! movie list end*/
